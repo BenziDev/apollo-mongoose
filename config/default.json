@@ -1,0 +1,5 @@
+{
+  "port": 3005,
+  "mongo": "mongodb://mongo:27017/test",
+  "secret": "ytdgtfgfiyfiyfytfiytfygiffot"
+}

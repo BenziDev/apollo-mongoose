@@ -1,0 +1,40 @@
+{
+  "name": "apollo-mongoose",
+  "version": "1.0.0",
+  "description": "A boilerplate for building an Apollo server with mongoose",
+  "main": "dist",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenziDev/apollo-mongoose.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenziDev/apollo-mongoose/issues"
+  },
+  "homepage": "https://github.com/BenziDev/apollo-mongoose#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/config": "0.0.36",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.21",
+    "apollo-server-express": "^2.14.2",
+    "argon2": "^0.26.2",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jethro": "^4.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
